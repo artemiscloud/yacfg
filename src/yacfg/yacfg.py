@@ -102,7 +102,9 @@ def generate_core(config_data, tuned_profile=None, template=None,
         :type value_key: str
         :return: str
         """
+        print("==========In overridevalues", "key", value_key, "extra", extra_properties_data)
         if value_key in extra_properties_data:
+            print("============it's a special", "key", value_key, "value", extra_properties_data[value_key])
             return extra_properties_data[value_key]
         return value
 
