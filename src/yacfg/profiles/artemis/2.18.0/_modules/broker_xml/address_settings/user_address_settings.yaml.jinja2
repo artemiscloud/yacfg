@@ -194,7 +194,7 @@
     management_message_attribute_size_limit: {{ address_setting.management_message_attribute_size_limit }}
   {% endif %}
   {% if address_setting.enable_ingress_timestamp is defined %}
-    enable_ingress_timestamp: {{ address_setting.enable_ingress_timestamp }}
+    enable_ingress_timestamp: {{ mbool(address_setting.enable_ingress_timestamp) }}
   {% endif %}
 
   {% endfor %}

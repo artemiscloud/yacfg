@@ -193,7 +193,7 @@
                 <management-message-attribute-size-limit>{{ address_setting.management_message_attribute_size_limit }}</management-message-attribute-size-limit>
                 {% endif %}
                 {% if address_setting.enable_ingress_timestamp is defined %}
-                <enable-ingress-timestamp>{{ address_setting.enable_ingress_timestamp }}</enable-ingress-timestamp>
+                <enable-ingress-timestamp>{{ mbool(address_setting.enable_ingress_timestamp) }}</enable-ingress-timestamp>
                 {% endif %}
                 {% if address_setting.max_size_messages is defined %}
                 <max-size-messages>{{ address_setting.max_size_messages }}</max-size-messages>
