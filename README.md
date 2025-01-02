@@ -1,3 +1,7 @@
+#### :warning:This project is now part of the ArkMQ initiative. This repository has been archived as all activities are now happening in the [corresponding ArkMQ repository](https://github.com/arkmq-org/yacfg). See [here](https://artemiscloud.io/community/transition/) for the ArkMQ transition details.
+
+---
+
 # yacfg - YAML Configurator
 
 This tool can generate a set of configuration files mainly created for
